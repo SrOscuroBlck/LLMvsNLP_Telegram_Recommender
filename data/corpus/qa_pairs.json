@@ -1,0 +1,101 @@
+{
+  "business_name": "Sabores de Bogotá",
+  "business_type": "Recomendador de restaurantes y platos",
+  "qa_pairs": [
+    {
+      "question": "Hola",
+      "answer": "¡Hola! Bienvenido a Sabores de Bogotá. ¿Buscas una recomendación gastronómica hoy?",
+      "category": "greeting"
+    },
+    {
+      "question": "Buenos días",
+      "answer": "¡Buenos días! Soy tu asistente gastronómico. ¿Qué tipo de comida te apetece?",
+      "category": "greeting"
+    },
+    {
+      "question": "Buenas tardes",
+      "answer": "¡Buenas tardes! Estoy aquí para recomendarte los mejores restaurantes y platos. ¿Qué se te antoja?",
+      "category": "greeting"
+    },
+    {
+      "question": "¿Quién eres?",
+      "answer": "Soy tu asistente virtual de Sabores de Bogotá. Te ayudo a encontrar los mejores restaurantes y platos según tus gustos y preferencias.",
+      "category": "about"
+    },
+    {
+      "question": "¿Qué tipo de comida recomiendan?",
+      "answer": "Recomendamos comida colombiana, italiana, mexicana, japonesa, árabe, vegetariana, y más. ¿Tienes alguna preferencia?",
+      "category": "services"
+    },
+    {
+      "question": "Quiero comida italiana",
+      "answer": "¡Excelente elección! Te recomiendo La Trattoria (pastas artesanales), Osteria di Lucca (auténtica cocina italiana), o Il Forno (pizzas al horno de leña). ¿Alguna preferencia en particular?",
+      "category": "recommendations"
+    },
+    {
+      "question": "Recomiéndame comida colombiana",
+      "answer": "¡Con gusto! Para comida colombiana tradicional te recomiendo: Andrés Carne de Res (ambiente festivo), La Puerta Falsa (desayunos típicos), o Misia (cocina colombiana gourmet). ¿Buscas algo específico?",
+      "category": "recommendations"
+    },
+    {
+      "question": "¿Dónde puedo comer sushi?",
+      "answer": "Para sushi de calidad te recomiendo: Osaka (sushi tradicional japonés), Wok (fusión asiática), o Matsu (omakase premium). Todos tienen excelentes opciones.",
+      "category": "recommendations"
+    },
+    {
+      "question": "Quiero algo vegetariano",
+      "answer": "¡Perfecto! Te recomiendo: Quinua y Amaranto (comida saludable), Lorena (100% vegetariano), o Patacón Pisao (opciones veganas y vegetarianas). Todos muy buenos.",
+      "category": "recommendations"
+    },
+    {
+      "question": "¿Qué plato me recomiendas?",
+      "answer": "Depende de tu antojo. ¿Prefieres algo ligero o contundente? ¿Alguna cocina en particular? Puedo recomendarte desde bandeja paisa hasta ceviche peruano.",
+      "category": "dishes"
+    },
+    {
+      "question": "Quiero un ajiaco",
+      "answer": "¡El ajiaco bogotano es delicioso! Te recomiendo probarlo en La Puerta Falsa (el más tradicional), Casa Vieja (muy auténtico), o Prudencia (versión gourmet).",
+      "category": "dishes"
+    },
+    {
+      "question": "¿Cuál es el mejor restaurante?",
+      "answer": "Depende de lo que busques. Para alta cocina: Leo o El Cielo. Para ambiente: Andrés Carne de Res. Para tradicional: La Puerta Falsa. ¿Qué tipo de experiencia quieres?",
+      "category": "recommendations"
+    },
+    {
+      "question": "Quiero comida mexicana",
+      "answer": "¡Buen antojo! Te recomiendo: Taquería El Mexicano (tacos auténticos), Palenque (comida yucateca), o La Hamburguesería (fusión mexicana). ¿Prefieres tacos, enchiladas o algo más?",
+      "category": "recommendations"
+    },
+    {
+      "question": "¿Restaurantes económicos?",
+      "answer": "Claro, te recomiendo: Frisby (pollo asado), La Puerta Falsa (comida típica económica), o Don Jediondo (corrientazo colombiano). Todos con buena relación calidad-precio.",
+      "category": "pricing"
+    },
+    {
+      "question": "¿Restaurantes elegantes?",
+      "answer": "Para una ocasión especial te recomiendo: Leo (fine dining), Criterión (cocina de autor), Harry Sasson (alta cocina internacional), o Astrid & Gastón (cocina peruana gourmet).",
+      "category": "pricing"
+    },
+    {
+      "question": "¿Dónde comer cerca de la zona T?",
+      "answer": "En la zona T encuentras: Wok (comida asiática), Andrés DC (ambiente festivo), BBC (carnes), y Central Cevichería (comida peruana). Todos a poca distancia.",
+      "category": "location"
+    },
+    {
+      "question": "¿Horarios de restaurantes?",
+      "answer": "La mayoría abren de 12:00 p.m. a 10:00 p.m. entre semana, y hasta las 11:00 p.m. o 12:00 a.m. los fines de semana. Te sugiero confirmar con el restaurante específico.",
+      "category": "hours"
+    },
+    {
+      "question": "Gracias",
+      "answer": "¡De nada! Espero que disfrutes tu comida. Si necesitas más recomendaciones, aquí estoy.",
+      "category": "courtesy"
+    },
+    {
+      "question": "Adiós",
+      "answer": "¡Hasta pronto! Que tengas buen provecho. 🍽️",
+      "category": "courtesy"
+    }
+  ]
+}

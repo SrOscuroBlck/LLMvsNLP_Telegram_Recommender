@@ -1,0 +1,109 @@
+{
+  "test_queries": [
+    {
+      "id": 1,
+      "query": "Quiero comida japonesa",
+      "expected_keywords": ["japonesa", "sushi", "osaka", "wok", "matsu"],
+      "category": "cuisine_type",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "query": "¿Dónde puedo comer sushi?",
+      "expected_keywords": ["osaka", "wok", "matsu", "sushi"],
+      "category": "cuisine_type",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "query": "Quiero comida italiana",
+      "expected_keywords": ["italiana", "trattoria", "osteria", "forno"],
+      "category": "cuisine_type",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "query": "Algo vegetariano por favor",
+      "expected_keywords": ["vegetariano", "quinua", "lorena", "patacón"],
+      "category": "dietary",
+      "difficulty": "medium"
+    },
+    {
+      "id": 5,
+      "query": "¿Restaurantes económicos?",
+      "expected_keywords": ["frisby", "puerta falsa", "jediondo", "económico"],
+      "category": "budget",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "query": "Quiero algo elegante para una cita",
+      "expected_keywords": ["leo", "cielo", "harry", "criterión", "astrid"],
+      "category": "occasion",
+      "difficulty": "medium"
+    },
+    {
+      "id": 7,
+      "query": "¿Dónde comer ajiaco?",
+      "expected_keywords": ["ajiaco", "puerta falsa", "casa vieja", "prudencia"],
+      "category": "dish_specific",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "query": "Quiero tacos mexicanos",
+      "expected_keywords": ["mexicana", "taquería", "mexicano", "palenque"],
+      "category": "cuisine_type",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "query": "Recomiéndame comida colombiana",
+      "expected_keywords": ["colombiana", "andrés", "puerta falsa", "misia"],
+      "category": "cuisine_type",
+      "difficulty": "easy"
+    },
+    {
+      "id": 10,
+      "query": "¿Horarios de restaurantes?",
+      "expected_keywords": ["12:00", "10:00", "hora", "semana"],
+      "category": "information",
+      "difficulty": "easy"
+    },
+    {
+      "id": 11,
+      "query": "Hola",
+      "expected_keywords": ["hola", "bienvenido", "sabores", "bogotá"],
+      "category": "greeting",
+      "difficulty": "easy"
+    },
+    {
+      "id": 12,
+      "query": "Gracias",
+      "expected_keywords": ["nada", "provecho", "recomendaciones"],
+      "category": "courtesy",
+      "difficulty": "easy"
+    },
+    {
+      "id": 13,
+      "query": "ubicación de osaka",
+      "expected_keywords": ["zona", "ubicación", "dirección", "bogotá"],
+      "category": "location",
+      "difficulty": "medium"
+    },
+    {
+      "id": 14,
+      "query": "comida vegana barata",
+      "expected_keywords": ["vegana", "vegetariano", "económico", "quinua", "lorena"],
+      "category": "dietary_budget",
+      "difficulty": "hard"
+    },
+    {
+      "id": 15,
+      "query": "¿Qué restaurante me recomiendas para hoy?",
+      "expected_keywords": ["recomiendo", "tipo", "comida", "presupuesto"],
+      "category": "open_ended",
+      "difficulty": "hard"
+    }
+  ]
+}

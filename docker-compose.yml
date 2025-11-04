@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  nlp-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.nlp
+    container_name: chatbot-nlp
+    env_file:
+      - .env
+    environment:
+      - NLP_BOT_TOKEN=${NLP_BOT_TOKEN}
+      - SIMILARITY_THRESHOLD=${SIMILARITY_THRESHOLD}
+      - LOG_LEVEL=${LOG_LEVEL}
+    restart: unless-stopped
+    volumes:
+      - ./results:/app/results
+    networks:
+      - chatbot-network
+
+  llm-bot:
+    build:
+      context: .
+      dockerfile: Dockerfile.llm
+    container_name: chatbot-llm
+    env_file:
+      - .env
+    environment:
+      - LLM_BOT_TOKEN=${LLM_BOT_TOKEN}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_MODEL=${OPENAI_MODEL}
+      - OPENAI_TEMPERATURE=${OPENAI_TEMPERATURE}
+      - OPENAI_MAX_TOKENS=${OPENAI_MAX_TOKENS}
+      - MAX_CONVERSATION_HISTORY=${MAX_CONVERSATION_HISTORY}
+      - LOG_LEVEL=${LOG_LEVEL}
+    restart: unless-stopped
+    volumes:
+      - ./results:/app/results
+    networks:
+      - chatbot-network
+
+networks:
+  chatbot-network:
+    driver: bridge

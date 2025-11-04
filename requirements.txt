@@ -1,0 +1,19 @@
+# Telegram Bot Framework
+python-telegram-bot
+
+# OpenAI API
+openai
+
+# NLP and ML
+scikit-learn
+numpy
+
+# Data handling
+pydantic
+
+# Environment variables
+python-dotenv
+
+# Testing (optional)
+pytest
+pytest-asyncio

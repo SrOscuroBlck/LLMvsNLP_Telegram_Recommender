@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results and logs
+results/*.json
+results/*.csv
+*.log
+
+# LaTeX
+report/*.aux
+report/*.log
+report/*.out
+report/*.pdf
+report/*.synctex.gz
+
+# Git
+.git/
+.gitignore
+
+# Documentation (will be added during build)
+docs/
+
+# Tests
+tests/
+pytest_cache/
+.coverage
+
+# Docker
+.dockerignore
