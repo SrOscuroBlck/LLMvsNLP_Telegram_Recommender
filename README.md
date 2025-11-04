@@ -198,8 +198,6 @@ The project includes a comprehensive testing framework with:
 - **Automated metrics calculation** (accuracy, response time, keyword matching)
 - **JSON export** for further analysis
 
-See [TESTING_GUIDE.md](TESTING_GUIDE.md) for detailed testing documentation.
-
 ## Project Deliverables
 
 ### Code (project/)
@@ -220,8 +218,6 @@ See [TESTING_GUIDE.md](TESTING_GUIDE.md) for detailed testing documentation.
 
 - [Docker Deployment Guide](docs/docker_guide.md)
 - [Setup Guide](docs/setup_guide.md)
-- [Testing Guide](TESTING_GUIDE.md)
-- [Architecture Overview](docs/architecture.md)
 
 ## Repository
 
